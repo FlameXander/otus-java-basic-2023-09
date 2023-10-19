@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class MainApplication {
     public static void main(String[] args) {
-        booleanBox();
+        numbersGame();
     }
 
     public static void booleanBox() {
@@ -75,7 +75,7 @@ public class MainApplication {
         System.out.println(a + " " + operation + " " + b + " = " + result);
     }
 
-    public static void wordsGame() {
+    public static void numbersGame() {
         Scanner scanner = new Scanner(System.in);
         int triesCount;
         int interval;
@@ -118,7 +118,7 @@ public class MainApplication {
         System.out.println("Игра окончена");
     }
 
-    public static void simpleWordsGame() {
+    public static void simpleNumbersGame() {
         Scanner scanner = new Scanner(System.in);
         int aiNumber = (int) (Math.random() * 10); // [0, 9]
         System.out.println("Компьютер загадал число от 0 до 9, попробуйте отгадать");
